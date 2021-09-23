@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1632379392,,"wq"
+|2,0,1632382470,,"wq"
 :q
 |2,0,1631779861,,"q"
 :Q
@@ -42,265 +42,375 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	#include <stdio.h>
-|3,1,0,1,1,0,1631779490,"#include <stdio.h>"
-"1	LINE	0
-	#include <unistd.h>
-|3,0,1,1,1,0,1631779488,"#include <unistd.h>"
+"0	LINE	0
+	#include <sys/types.h>
+|3,0,0,1,1,0,1632381892,"#include <sys/types.h>"
+""1	LINE	0
+	#include <sys/types.h>
+|3,1,1,1,1,0,1632382457,"#include <sys/types.h>"
 "2	LINE	0
-	#include <unistd.h>
-|3,0,2,1,1,0,1631779178,"#include <unistd.h>"
+				execv("/bin/ls", args);
+|3,0,2,1,1,0,1632382454,"			execv(\"/bin/ls\", args);"
 "3	LINE	0
-	#include <stdlib.h>
-|3,0,3,1,1,0,1631779177,"#include <stdlib.h>"
+				
+|3,0,3,1,1,0,1632381654,"			"
 "4	LINE	0
-	void myError(const char* msg);
-|3,0,4,1,1,0,1631777221,"void myError(const char* msg);"
+	#include <sys/types.h>
+|3,0,4,1,1,0,1632381653,"#include <sys/types.h>"
 "5	LINE	0
-	#include <stdio.h>
-|3,0,5,1,1,0,1631776409,"#include <stdio.h>"
+			else{
+	#include <sys/types.h>
+|3,0,5,1,2,0,1632381645,"		else{","#include <sys/types.h>"
 "6	LINE	0
-		r = stat(pathname, &buf1);
-|3,0,6,1,1,0,1631776245,"	r = stat(pathname, &buf1);"
+			printf("Hello, My PID is : %d\n", getpid());
+|3,0,6,1,1,0,1632381220,"		printf(\"Hello, My PID is : %d\\n\", getpid());"
 "7	LINE	0
-		r = stat(pathname, &buf1);
-|3,0,7,1,1,0,1631776241,"	r = stat(pathname, &buf1);"
+			printf("I'm child. My PID is : %d\n", getpid());
+|3,0,7,1,1,0,1632381214,"		printf(\"I'm child. My PID is : %d\\n\", getpid());"
 "8	LINE	0
-		r = stat(pathname, &buf1);
-|3,0,8,1,1,0,1631776241,"	r = stat(pathname, &buf1);"
+			printf("I'm child. My
+|3,0,8,1,1,0,1632381178,"		printf(\"I'm child. My"
 "9	LINE	0
-		}
-|3,0,9,1,1,0,1631166984,"	}"
+			printf("I'm child. My
+|3,0,9,1,1,0,1632381175,"		printf(\"I'm child. My"
 "-	CHAR	0
-	(
-|3,0,36,0,1,0,1631777806,"("
+	5
+|3,0,36,0,1,0,1632381770,"5"
 
 # File marks:
-'0  6  0  ~/ex_fork.c
-|4,48,6,0,1632379392,"~/ex_fork.c"
-'1  30  30  ~/ex_readdir.c
-|4,49,30,30,1631779953,"~/ex_readdir.c"
-'2  30  22  ~/ex_readdir.c
-|4,50,30,22,1631779872,"~/ex_readdir.c"
-'3  1  0  ~/ex_readdir.
-|4,51,1,0,1631779861,"~/ex_readdir."
-'4  36  0  ~/ex_readdir.c
-|4,52,36,0,1631779827,"~/ex_readdir.c"
-'5  36  0  ~/ex_readdir.c
-|4,53,36,0,1631779827,"~/ex_readdir.c"
-'6  36  0  ~/ex_readdir.c
-|4,54,36,0,1631779827,"~/ex_readdir.c"
-'7  36  0  ~/ex_readdir.c
-|4,55,36,0,1631779827,"~/ex_readdir.c"
-'8  2  15  ~/ex_mkdir.c
-|4,56,2,15,1631779395,"~/ex_mkdir.c"
-'9  1  0  ~/ex_mkdir.
-|4,57,1,0,1631779380,"~/ex_mkdir."
+'0  18  8  ~/4week/ex_execvp.c
+|4,48,18,8,1632382470,"~/4week/ex_execvp.c"
+'1  19  30  ~/4week/ex_execve.c
+|4,49,19,30,1632382277,"~/4week/ex_execve.c"
+'2  21  0  ~/4week/ex_execv.c
+|4,50,21,0,1632382149,"~/4week/ex_execv.c"
+'3  21  0  ~/4week/ex_execv.c
+|4,51,21,0,1632382149,"~/4week/ex_execv.c"
+'4  24  0  ~/4week/ex_execl.c
+|4,52,24,0,1632382037,"~/4week/ex_execl.c"
+'5  24  0  ~/4week/ex_execl.c
+|4,53,24,0,1632382037,"~/4week/ex_execl.c"
+'6  23  59  ~/4week/ex_exit_macro.c
+|4,54,23,59,1632381825,"~/4week/ex_exit_macro.c"
+'7  23  59  ~/4week/ex_exit_macro.c
+|4,55,23,59,1632381825,"~/4week/ex_exit_macro.c"
+'8  31  0  ~/4week/ex_exit.c
+|4,56,31,0,1632381681,"~/4week/ex_exit.c"
+'9  31  0  ~/4week/ex_exit.c
+|4,57,31,0,1632381681,"~/4week/ex_exit.c"
 
 # Jumplist (newest first):
--'  6  0  ~/ex_fork.c
-|4,39,6,0,1632379392,"~/ex_fork.c"
--'  1  0  ~/ex_fork.c
-|4,39,1,0,1632379351,"~/ex_fork.c"
--'  30  30  ~/ex_readdir.c
-|4,39,30,30,1631779953,"~/ex_readdir.c"
--'  30  30  ~/ex_readdir.c
-|4,39,30,30,1631779953,"~/ex_readdir.c"
--'  30  22  ~/ex_readdir.c
-|4,39,30,22,1631779872,"~/ex_readdir.c"
--'  30  22  ~/ex_readdir.c
-|4,39,30,22,1631779872,"~/ex_readdir.c"
--'  36  0  ~/ex_readdir.c
-|4,39,36,0,1631779863,"~/ex_readdir.c"
--'  36  0  ~/ex_readdir.c
-|4,39,36,0,1631779863,"~/ex_readdir.c"
--'  36  0  ~/ex_readdir.c
-|4,39,36,0,1631779863,"~/ex_readdir.c"
--'  36  0  ~/ex_readdir.c
-|4,39,36,0,1631779863,"~/ex_readdir.c"
--'  1  0  ~/ex_readdir.
-|4,39,1,0,1631779861,"~/ex_readdir."
--'  1  0  ~/ex_readdir.
-|4,39,1,0,1631779861,"~/ex_readdir."
--'  1  0  ~/ex_readdir.
-|4,39,1,0,1631779861,"~/ex_readdir."
--'  1  0  ~/ex_readdir.
-|4,39,1,0,1631779861,"~/ex_readdir."
--'  1  0  ~/ex_readdir.
-|4,39,1,0,1631779861,"~/ex_readdir."
--'  1  0  ~/ex_readdir.
-|4,39,1,0,1631779861,"~/ex_readdir."
--'  1  0  ~/ex_readdir.
-|4,39,1,0,1631779861,"~/ex_readdir."
--'  1  0  ~/ex_readdir.
-|4,39,1,0,1631779861,"~/ex_readdir."
--'  36  0  ~/ex_readdir.c
-|4,39,36,0,1631779827,"~/ex_readdir.c"
--'  36  0  ~/ex_readdir.c
-|4,39,36,0,1631779827,"~/ex_readdir.c"
--'  36  0  ~/ex_readdir.c
-|4,39,36,0,1631779827,"~/ex_readdir.c"
--'  36  0  ~/ex_readdir.c
-|4,39,36,0,1631779827,"~/ex_readdir.c"
--'  1  0  ~/ex_readdir.c
-|4,39,1,0,1631779482,"~/ex_readdir.c"
--'  1  0  ~/ex_readdir.c
-|4,39,1,0,1631779482,"~/ex_readdir.c"
--'  1  0  ~/ex_readdir.c
-|4,39,1,0,1631779482,"~/ex_readdir.c"
--'  1  0  ~/ex_readdir.c
-|4,39,1,0,1631779482,"~/ex_readdir.c"
--'  1  0  ~/ex_readdir.c
-|4,39,1,0,1631779482,"~/ex_readdir.c"
--'  1  0  ~/ex_readdir.c
-|4,39,1,0,1631779482,"~/ex_readdir.c"
--'  1  0  ~/ex_readdir.c
-|4,39,1,0,1631779482,"~/ex_readdir.c"
--'  1  0  ~/ex_readdir.c
-|4,39,1,0,1631779482,"~/ex_readdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  2  15  ~/ex_mkdir.c
-|4,39,2,15,1631779395,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  8  0  ~/ex_mkdir.c
-|4,39,8,0,1631779381,"~/ex_mkdir.c"
--'  1  0  ~/ex_mkdir.
-|4,39,1,0,1631779380,"~/ex_mkdir."
--'  1  0  ~/ex_mkdir.
-|4,39,1,0,1631779380,"~/ex_mkdir."
--'  1  0  ~/ex_mkdir.
-|4,39,1,0,1631779380,"~/ex_mkdir."
--'  1  0  ~/ex_mkdir.
-|4,39,1,0,1631779380,"~/ex_mkdir."
--'  1  0  ~/ex_mkdir.
-|4,39,1,0,1631779380,"~/ex_mkdir."
--'  1  0  ~/ex_mkdir.
-|4,39,1,0,1631779380,"~/ex_mkdir."
+-'  18  8  ~/4week/ex_execvp.c
+|4,39,18,8,1632382470,"~/4week/ex_execvp.c"
+-'  1  0  ~/4week/ex_execvp.c
+|4,39,1,0,1632382447,"~/4week/ex_execvp.c"
+-'  19  30  ~/4week/ex_execve.c
+|4,39,19,30,1632382277,"~/4week/ex_execve.c"
+-'  19  30  ~/4week/ex_execve.c
+|4,39,19,30,1632382277,"~/4week/ex_execve.c"
+-'  1  0  ~/4week/ex_execve.c
+|4,39,1,0,1632382203,"~/4week/ex_execve.c"
+-'  1  0  ~/4week/ex_execve.c
+|4,39,1,0,1632382203,"~/4week/ex_execve.c"
+-'  21  0  ~/4week/ex_execv.c
+|4,39,21,0,1632382149,"~/4week/ex_execv.c"
+-'  21  0  ~/4week/ex_execv.c
+|4,39,21,0,1632382149,"~/4week/ex_execv.c"
+-'  21  0  ~/4week/ex_execv.c
+|4,39,21,0,1632382149,"~/4week/ex_execv.c"
+-'  21  0  ~/4week/ex_execv.c
+|4,39,21,0,1632382149,"~/4week/ex_execv.c"
+-'  1  0  ~/4week/ex_execv.c
+|4,39,1,0,1632382097,"~/4week/ex_execv.c"
+-'  1  0  ~/4week/ex_execv.c
+|4,39,1,0,1632382097,"~/4week/ex_execv.c"
+-'  1  0  ~/4week/ex_execv.c
+|4,39,1,0,1632382097,"~/4week/ex_execv.c"
+-'  1  0  ~/4week/ex_execv.c
+|4,39,1,0,1632382097,"~/4week/ex_execv.c"
+-'  24  0  ~/4week/ex_execl.c
+|4,39,24,0,1632382037,"~/4week/ex_execl.c"
+-'  24  0  ~/4week/ex_execl.c
+|4,39,24,0,1632382037,"~/4week/ex_execl.c"
+-'  24  0  ~/4week/ex_execl.c
+|4,39,24,0,1632382037,"~/4week/ex_execl.c"
+-'  24  0  ~/4week/ex_execl.c
+|4,39,24,0,1632382037,"~/4week/ex_execl.c"
+-'  24  0  ~/4week/ex_execl.c
+|4,39,24,0,1632382037,"~/4week/ex_execl.c"
+-'  24  0  ~/4week/ex_execl.c
+|4,39,24,0,1632382037,"~/4week/ex_execl.c"
+-'  1  0  ~/4week/ex_execl.c
+|4,39,1,0,1632381885,"~/4week/ex_execl.c"
+-'  1  0  ~/4week/ex_execl.c
+|4,39,1,0,1632381885,"~/4week/ex_execl.c"
+-'  1  0  ~/4week/ex_execl.c
+|4,39,1,0,1632381885,"~/4week/ex_execl.c"
+-'  1  0  ~/4week/ex_execl.c
+|4,39,1,0,1632381885,"~/4week/ex_execl.c"
+-'  1  0  ~/4week/ex_execl.c
+|4,39,1,0,1632381885,"~/4week/ex_execl.c"
+-'  1  0  ~/4week/ex_execl.c
+|4,39,1,0,1632381885,"~/4week/ex_execl.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  23  59  ~/4week/ex_exit_macro.c
+|4,39,23,59,1632381825,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  1  0  ~/4week/ex_exit_macro.c
+|4,39,1,0,1632381760,"~/4week/ex_exit_macro.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  31  0  ~/4week/ex_exit.c
+|4,39,31,0,1632381681,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  1  0  ~/4week/ex_exit.c
+|4,39,1,0,1632381491,"~/4week/ex_exit.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
+-'  38  0  ~/4week/ex_wait.c
+|4,39,38,0,1632381357,"~/4week/ex_wait.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/4week/ex_execvp.c
+	*	1632382466	0
+	"	18	8
+	^	18	9
+	.	18	8
+	+	18	0
+	+	18	8
+
+> ~/4week/ex_execve.c
+	*	1632382275	0
+	"	19	30
+	^	19	31
+	.	19	30
+	+	11	58
+	+	12	0
+	+	19	30
+
+> ~/4week/ex_execv.c
+	*	1632382148	0
+	"	21	0
+	^	21	0
+	.	18	19
+	+	11	0
+	+	18	19
+
+> ~/4week/ex_execl.c
+	*	1632382036	0
+	"	24	0
+	^	24	1
+	.	25	0
+	+	2	0
+	+	5	0
+	+	2	15
+	+	5	17
+	+	7	40
+	+	17	44
+	+	25	0
+
+> ~/4week/ex_exit_macro.c
+	*	1632381824	0
+	"	23	59
+	^	23	60
+	.	23	59
+	+	22	21
+	+	23	59
+
+> ~/4week/ex_exit.c
+	*	1632381680	0
+	"	31	0
+	^	31	1
+	.	31	0
+	+	2	0
+	+	5	17
+	+	2	15
+	+	21	16
+	+	25	3
+	+	25	0
+	+	32	0
+	+	25	0
+	+	26	53
+	+	31	0
+
+> ~/4week/ex_wait.c
+	*	1632381356	0
+	"	38	0
+	^	38	1
+	.	38	0
+	+	2	0
+	+	4	0
+	+	5	0
+	+	4	0
+	+	2	15
+	+	5	17
+	+	6	0
+	+	7	40
+	+	21	19
+	+	22	0
+	+	22	1
+	+	22	0
+	+	23	60
+	+	27	6
+	+	28	0
+	+	31	0
+	+	28	54
+	+	31	45
+	+	34	0
+	+	35	54
+	+	38	0
+
+> ~/4week/ex_fork.c
+	*	1632380883	0
+	"	22	15
+	^	22	16
+	.	22	15
+	+	16	51
+	+	17	41
+	+	16	44
+	+	17	64
+	+	23	2
+	+	21	0
+	+	22	0
+	+	21	15
+	+	22	15
+	+	25	0
+	+	12	9
+	+	6	44
+	+	18	0
+	+	22	15
 
 > ~/ex_fork.c
 	*	1632379391	0
