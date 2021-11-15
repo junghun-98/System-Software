@@ -579,3 +579,586 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/junghun-98/System-Software.git
 git push -u origin main
+ls
+ls -al
+clear
+ls
+vim ex_fork.c
+cp ex_fork.c ex_wait.c
+cp ex_fork.c ex_exit.c
+cp ex_fork.c ex_execl.c
+cp ex_fork.c ex_execv.c
+cp ex_fork.c ex_execve.c
+cp ex_fork.c ex_execvp.c
+ls
+mkdir 3week
+mv ex_fstat.c ex_readdir.c ex_getpwuid.c ex_stat.c
+mv ex_fstat.c ex_readdir.c ex_getpwuid.c ex_stat.c 2week
+ls
+mv ex_fstat.c ex_readdir.c ex_getpwuid.c ex_stat.c 3week
+ls
+mv ex_chdir.c ex_mkdir.c original.txt copy.txt 
+mv ex_chdir.c ex_mkdir.c original.txt copy.txt 3week
+ls
+clear
+git status
+git add 3week/
+git status
+git commit -m "3week"
+git push origin master
+ls
+git init
+clear
+ls
+git status
+clear
+ls
+ls -al
+git remote
+git push origin master
+git init
+rmdir -rf .git
+rmdir -f .git
+rm -f .git
+rmdir - r.git
+rmdir -r .git
+rm -rf .gint
+rm -rf .git
+ls
+clear
+ls -al
+clear
+git init
+git status
+git add 3week/ README.md 
+git remote add origin https://github.com/junghun-98/System-Software.git
+git pull origin master
+git pull origin main
+git commit -m "3week"
+git push origin main
+ls
+git status
+git push -u origin main
+git log
+git push -u origin master
+git branch
+ls
+rm ex_chdir.c ex_mkdir.c ex_fstat.c ex_readdir.c original.txt copy.txt ex_getpwuid.c ex_stat.c 
+git status
+git add .
+git status
+git commit -m "3week"
+git push origin master
+clear
+ls
+mkdir 4week
+mv ex* 4week
+ls
+clear
+cd 4week/
+ls
+vim ex_fork.c 
+gcc -o ex_fook.out ex_fork.c ex_fork.c 
+vim ex_fork.c 
+gcc -o ex_fook.out ex_fork.c ex_fork.c 
+gcc -o ex_fook.out ex_fork.c
+clear
+./ex_fook.out 
+./ex_fook.out
+cat ex_fork.c 
+clear
+vim ex_wait.c 
+gcc -o ex_wait.out ex_wait.c
+./ex_wait.out 
+clear
+ls
+vim ex_exit.c
+gcc -o ex_exit.out ex_exit.c
+./ex_exit.out 
+cp ex_exit.c ex_exit_macro.c
+vim ex_exit_macro.c 
+gcc -o ex_exit_macro.out ex_exit_macro.c
+./ex_exit_macro.out 
+clear
+ls
+vim ex_execl.c 
+gcc -o ex_execl.out ex_execl.c
+./ex_execl.out
+cp ex_execl.c ex_execv.c
+vim ex_execv.c
+gcc -o ex_execv.out ex_execv.c
+./ex_execv.out 
+ls -al
+clear
+cp ex_execv.c ex_execve.c
+vim ex_execve.c
+gcc -o ex_execve.out ex_execve.c
+./ex_execve.out
+clar
+clear
+ls
+cat ex_execl
+cat ex_execl.c
+cat ex_execv.c
+cat ex_execve.c
+cp ex_execv.c ex_execvp.c
+vim ex_execvp.c
+gcc -o ex_execvp.out ex_execvp.c
+./ex_execvp.out
+clear
+ls
+rm *out
+ls
+clear
+cd ...
+cd ..
+ls
+git status
+git add .
+git commit -m "4week"
+git push origin master
+clear
+ps -ef
+ls
+cd 4week/
+ls
+gcc -o ex_execl.out ex_execl.c
+./ex_execl.out
+job 
+job /ex_execl.out
+clear
+ls
+rm *out
+clear
+cd 4week/
+ls
+gcc -o ex_fork.out ex_fork.c 
+ps -ef
+./ex_fork.out 
+ps -ef
+clear
+rm *out
+cd ./bin
+cd /bin
+ls
+clear
+ls grep | ls
+grep | ls
+vim ls
+cat ls
+clear
+ls
+ls -l
+ls -lF
+clear
+cd ..
+clear
+ls
+cd var
+ls
+cd
+clear
+ls
+cd 4week/
+ls
+cd ..
+cd 3week/
+ls
+gcc -o ex_getpwuid.out ex_getpwduid.c
+gcc -o ex_getpwuid.out ex_getpwuid.c
+./ex_getpwuid.out 
+./ex_getpwuid.out ex_mkdir.c
+cat ex_getpwuid.c
+clear
+ls
+mr *out
+rm *out
+gcc ex_getpwuid.c -o ex_getpwuid.out -std=c11
+gcc ex_getpwuid.c -o ex_getpwuid.out
+./ex_getpwuid.out 
+./ex_getpwuid.out ex_mkdir.c 
+clear
+man gcc
+cleare
+clear
+exit
+clear
+ls
+cat ls.
+cat ls.c
+./ls/out
+./ls.out
+vim ls.C
+vim ls.c
+gcc -o ls.out ls.c
+./ls.out
+ipcs
+clera
+clear
+ipcs
+vim ar.c
+gcc -o ar.out ar.c
+./ar.out
+clear
+vim ar.
+vim ar.c
+clear
+ls
+clear
+ls&
+ps -ex
+ps
+clear
+exit
+vim signal.c
+gcc -o s.out signal.c 
+clear
+vim signal.c
+gcc -o s.out signal.c 
+vim signal.c 
+gcc -o s.out signal.c 
+./s.out 
+vim signal.c 
+gcc -o s.out signal.c 
+vim signal.c 
+gcc -o s.out signal.c 
+./s.out
+cat signal.c 
+clear
+vim signal.c 
+gcc -o s.out signal.c 
+vim signal.c 
+gcc -o s.out signal.c 
+vim signal.c 
+gcc -o s.out signal.c 
+clear
+./s.out 
+cat signal.c 
+kill -l
+clear
+ls
+cat ar.c
+./ar.out
+clear
+ls
+cat ls.c
+cat signal.c 
+clear
+vim fork.c
+gcc -o fork.out fork.c
+./fork.out 
+ls
+ps
+clear
+kill SIGINT 10
+kill -SIGINT 10
+clear
+ls
+cat signal.c 
+clear
+ls
+cat ar.c
+ls
+rm .
+rm *
+rm -rf *
+ls
+clear
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c 
+gcc shell.c -o shell.out
+vim shell.c 
+gcc shell.c -o shell.out
+clear
+./shell.out 
+clear
+vim shell.
+vim shell.c
+./shell.out 
+cat shell.c
+vim shell.c
+gcc shell.c -o shell.out
+./shell.c
+./shell.out
+claer
+clear
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+ls
+cd sk
+cd..
+cd ..
+clear
+ls
+rm -rf sk
+clear
+ls
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+claer
+clear
+ls
+rm -rf ks
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out
+clear
+ls
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c 
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+cat shell.c
+ls
+clear
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+ls
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+cat shell.c
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+cat shell.c
+vim shell.c
+gcc shell.c -o shell.out
+clear
+./shell.out 
+ls
+./shell.out 
+cat shell.c
+clear
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim sell.c
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+vim ex.c
+gcc ex.c -o ex.out
+clear
+vim ex.c
+gcc ex.c -o ex.out
+vim ex.c
+gcc ex.c -o ex.out
+vim ex.c
+gcc ex.c -o ex.out
+vim ex.c
+gcc ex.c -o ex.out
+./ex.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+vim shell
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+clear
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+clear
+gcc shell.c -o shell.out
+vim shell.c
+apt get install g++
+sudo apt install g++
+clear
+g++ shell.c -o shell.out
+clear
+vim shell.c
+g++ shell.c -o shell.out
+clear
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+clear
+./shell.out 
+cat shell.c
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+clear
+./shell.out 
+clear
+ls
+vim shell.c
+clear
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+vim shell.c
+clear
+gcc shell.c -o shell.out
+./shell.out 
+:wq
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+cat shell.c
+vim shell.c
+gcc shell.c -o shell.out
+clar
+clear
+./shell.out 
+vim shell.c
+gcc shell.c -o shell.out
+./shell.out 
+clear
+ls
+vim shell.c
+ls
+cat shell.c
+clear
+gcc shell.c -o shell.out
+./shell.c
+clear
+./shell.out
